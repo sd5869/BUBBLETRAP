@@ -261,7 +261,7 @@ void ball:: pts()
 		if(p5>=(x-len) && p5<=(x+len) && p6>=(y-len) && p6<=(y+len))
 		scr++;
 }
-		      //points out
+		      //points deduction
 void ball:: ptso()
 {
 	int mx,my,p3,p4;unsigned int seedval;
