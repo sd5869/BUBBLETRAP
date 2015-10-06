@@ -41,7 +41,7 @@ class ball:protected point
   void init();void fhandle(char* s);
   int  getlife(){return life;}
 }b;
-			//intial position
+			//initial position
 void ball::init()
 {
 	if(flag==0)
