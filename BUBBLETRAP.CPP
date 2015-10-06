@@ -246,7 +246,7 @@ void ball:: score()
 	getch();
 	exit(0);
 }
-		      //points
+		      //points addition
 void ball:: pts()
 {
 	int mx,my,p5,p6;unsigned int seedval;
