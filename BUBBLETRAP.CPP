@@ -129,7 +129,7 @@ void ball::lif()
 	if(p5>=(x-len) && p5<=(x+len) && p6>=(y-len) && p6<=(y+len))
 	    life++;
 }
-			//contration
+			//contraction
 void ball::con()
 {            int mx,my,p5,p6; int seedval;
 	time_t t1;seedval=(unsigned)time(&t1);srand(seedval+mx);
